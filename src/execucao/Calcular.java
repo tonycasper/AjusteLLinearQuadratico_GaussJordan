@@ -31,11 +31,12 @@ public class Calcular {
 		//inicia o looping infinito
 		do {
 			System.out.println("###############################");
-			System.out.println("## Digite o valor dos pontos ##");
-			System.out.println("## na sequencia:			 ##");
-			System.out.println("## N, x_1, y_1 ... x_n, y_n  ##");
-			System.out.println("_______________________");
-			System.out.print("Digite os valores na ordem: ");			
+			System.out.println("## Digite o valor dos pontos    ##");
+			System.out.println("## da coordenada nasequencia:   ##");
+			System.out.println("## N, x_1, y_1 ... x_n, y_n     ##");
+			System.out.println("## Apertando o enter após       ##");
+			System.out.println("## digitar cada numero da coordenada.");
+			System.out.print("Digite os valores em seguida do enter: ");			
 			
 			if (numeroN == 0) {
 				//recebe o numero N
